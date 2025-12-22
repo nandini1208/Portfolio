@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nandini Gupta - Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#home" class="logo">Portfolio</a>
+
+      <!-- Hamburger menu button -->
+      <button
+        class="nav-toggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+      >
+        <span class="burger"></span>
+      </button>
+
+      <!-- Navigation menu -->
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#thinkbridge">Learning</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="bars-animation">
+      <div class="bar" style="--i: 6"></div>
+      <div class="bar" style="--i: 5"></div>
+      <div class="bar" style="--i: 4"></div>
+      <div class="bar" style="--i: 3"></div>
+      <div class="bar" style="--i: 2"></div>
+      <div class="bar" style="--i: 1"></div>
+    </div>
+
+    <section id="home" class="home fade-in">
+      <div class="home-info">
+        <h1>Nandini Gupta</h1>
+        <h2 class="animated-heading">
+          I'm a
+          <span class="dynamic-words">
+            <span>Software Developer Thinker Creative</span>
+          </span>
+        </h2>
+
+        <p>
+          Hello! I'm Nandini Gupta, a dedicated Software Engineer with a strong
+          foundation in .NET development, API integration, and web technologies.
+          I enjoy transforming complex requirements into efficient, scalable,
+          and maintainable solutions. My journey as a developer has strengthened
+          my expertise in problem-solving, backend automation, and
+          client-focused delivery.
+        </p>
+
+        <div class="btn-sci">
+          <a href="NandiniGuptaDeveloperCV.pdf" target="_blank" class="btn"
+            >View CV</a
+          >
+          <div class="social-icons">
+            <a href="mailto:nandiniguptait1@gmail.com" target="_blank">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/nandini-gupta-852357232/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/nandini1208" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <div class="img-box">
+          <div class="img-item">
+            <img src="image.jpg" alt="Nandini's Image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section fade-in">
+      <h3>Professional Experience</h3>
+      <div class="card">
+        <h4>Software Developer</h4>
+        <p><strong>Blu Parrot Venture Pvt. Ltd., Gurgaon</strong></p>
+        <p><em>Oct 2024 – Aug 2025</em></p>
+        <ul>
+          <li>
+            Client point of contact for a high-profile project involving 2000+
+            large-scale web scrapers in C#/.NET
+          </li>
+          <li>
+            Improved application performance by 25% via caching and
+            multi-threaded logic
+          </li>
+          <li>
+            Built monitoring and maintenance workflows ensuring fault tolerance
+          </li>
+          <li>
+            Collaborated with international clients for requirement gathering
+            and sprint planning
+          </li>
+          <li>
+            Promoted from intern to full-time developer for delivering scalable
+            solutions
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section fade-in">
+      <h3>Projects</h3>
+
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">
+          All Projects
+        </button>
+        <button class="filter-btn" data-filter="csharp">C# Projects</button>
+        <button class="filter-btn" data-filter="web">Web Projects</button>
+        <button class="filter-btn" data-filter="database">Database</button>
+      </div>
+
+      <div class="card">
+        <div class="project-item" data-tech="csharp database">
+          <h4>Recruitment Management System (C#, MySQL)</h4>
+          <ul>
+            <li>
+              Platform for managing job applications and recruitment workflows
+              with authentication
+            </li>
+            <li>
+              Implemented candidate profiling, scheduling, and secure MySQL
+              backend
+            </li>
+          </ul>
+        </div>
+
+        <div class="project-item" data-tech="csharp web database">
+          <h4>Sanchar – A Microblogging Site (C#, MySQL)</h4>
+          <ul>
+            <li>
+              Users can post, share, and interact with authentication and
+              comments system
+            </li>
+            <li>
+              Added image/file uploads, secure login, and relational DB design
+            </li>
+          </ul>
+        </div>
+
+        <div class="project-item" data-tech="csharp database">
+          <h4>Health Stack System (C#, MySQL)</h4>
+          <ul>
+            <li>
+              EHR, billing, and appointment modules using .NET CRUD logic and
+              stored procedures
+            </li>
+            <li>
+              Applied validation and exception handling to enhance reliability
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section fade-in">
+      <h3>Technical Skills</h3>
+      <div class="card">
+        <div class="skills-container">
+          <div class="skill">
+            <div class="skill-info">
+              <span>HTML/CSS</span>
+              <span class="skill-percent">0%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="90%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-info">
+              <span>JavaScript</span>
+              <span class="skill-percent">0%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="80%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-info">
+              <span>C# & .NET</span>
+              <span class="skill-percent">0%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="90%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-info">
+              <span>MySQL</span>
+              <span class="skill-percent">0%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="85%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-info">
+              <span>API Integration</span>
+              <span class="skill-percent">0%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="75%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-summary">
+          <p>
+            <strong>Languages & Frameworks:</strong> C#, Python, JavaScript,
+            .NET, Entity Framework
+          </p>
+          <p><strong>Databases:</strong> MySQL, SQL Server</p>
+          <p>
+            <strong>Web & Tools:</strong> Git, Postman, Visual Studio, HTML/CSS,
+            JSON
+          </p>
+          <p>
+            <strong>Other:</strong> API Integration, Web Scraping
+            (HtmlAgilityPack), Data Validation
+          </p>
+          <p>
+            <strong>Soft Skills:</strong> Problem-Solving, Client Communication,
+            Cross-Team Collaboration
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section fade-in">
+      <h3>Education & Certifications</h3>
+      <div class="card">
+        <h4>Education</h4>
+        <p>
+          <strong>P.S.I.T., Kanpur</strong> — Master of Computer Applications
+        </p>
+        <br />
+
+        <p>
+          <strong>U.I.E.T., Kanpur</strong> — Bachelor of Computer Applications
+        </p>
+        <br />
+
+        <h4>Certifications</h4>
+        <ul>
+          <li>
+            <a
+              href="certificate3.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              .NET Fundamentals – Great Learning Academy
+              <i
+                class="fas fa-external-link-alt"
+                style="margin-left: 5px; font-size: 12px"
+              ></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="certificate2.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Web Development – CodSoft
+              <i
+                class="fas fa-external-link-alt"
+                style="margin-left: 5px; font-size: 12px"
+              ></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="certificate1.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Engineering Equity Hackathon – Virtusa
+              <i
+                class="fas fa-external-link-alt"
+                style="margin-left: 5px; font-size: 12px"
+              ></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="thinkbridge" class="section fade-in">
+      <h3>Thinkbridge Learning Journey</h3>
+      <div class="card">
+        <p>
+          During my <strong>Thinkbridge Learning Journey</strong>, I gained
+          comprehensive hands-on experience in front-end development through
+          structured daily tasks and projects, building responsive and
+          interactive web applications from scratch.
+        </p>
+
+        <div class="learning-projects">
+          <h3 class="section-subheading">Projects Built During Learning</h3>
+
+          <!-- Recipe Manager Project -->
+          <div class="project-card timeline-item completed">
+            <span class="item-icon">📋</span>
+            <div class="item-content">
+              <h4>Recipe Manager Web Application</h4>
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Local Storage</span>
+                <span class="tech-tag">Responsive Design</span>
+              </div>
+              <p>
+                A full-featured CRUD application for managing recipes, built
+                during my
+                <strong>Thinkbridge Learning Journey</strong>. This project
+                demonstrates practical implementation of DOM manipulation, form
+                handling, and data persistence using browser's Local Storage
+                API.
+              </p>
+              <ul>
+                <li>
+                  <strong>Add Recipes:</strong> Create new recipes with
+                  ingredients, steps, and categories
+                </li>
+                <li>
+                  <strong>Edit & Delete:</strong> Full CRUD functionality with
+                  in-place editing
+                </li>
+                <li>
+                  <strong>Data Persistence:</strong> Recipes saved locally using
+                  Local Storage
+                </li>
+                <li>
+                  <strong>Search & Filter:</strong> Find recipes by name or
+                  category
+                </li>
+                <li>
+                  <strong>Form Validation:</strong> Client-side validation for
+                  user inputs
+                </li>
+                <li>
+                  <strong>Responsive UI:</strong> Works seamlessly on mobile,
+                  tablet, and desktop
+                </li>
+              </ul>
+              <div class="project-links">
+                <a
+                  href="https://nandini1208.github.io/Recipe_Manager_Task/"
+                  target="_blank"
+                  class="btn live-btn"
+                >
+                  <i class="fas fa-external-link-alt"></i> View Live Project
+                </a>
+                <a
+                  href="https://github.com/nandini1208/Recipe_Manager_Task"
+                  target="_blank"
+                  class="btn github-btn"
+                >
+                  <i class="fab fa-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Rock Paper Scissors Game -->
+          <div class="project-card timeline-item completed">
+            <span class="item-icon">🎮</span>
+            <div class="item-content">
+              <h4>Rock-Paper-Scissors Game</h4>
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Game Logic</span>
+                <span class="tech-tag">Audio API</span>
+              </div>
+              <p>
+                An interactive browser game built during my
+                <strong>Thinkbridge Learning Journey</strong>, showcasing event
+                handling, game logic implementation, and interactive UI elements
+                with visual feedback.
+              </p>
+              <ul>
+                <li>Dynamic scoreboard tracking wins, losses, and draws</li>
+                <li>Audio feedback for win, lose, and draw events</li>
+                <li>Visual glow animations for game outcomes</li>
+                <li>First-to-5 game logic with victory message</li>
+                <li>Game reset functionality</li>
+                <li>Fully responsive across all devices</li>
+              </ul>
+              <div class="project-links">
+                <a
+                  href="https://nandini1208.github.io/RockPaperScissorsGame/"
+                  target="_blank"
+                  class="btn live-btn"
+                >
+                  <i class="fas fa-external-link-alt"></i> Play Game
+                </a>
+                <a
+                  href="https://github.com/nandini1208/RockPaperScissorsGame"
+                  target="_blank"
+                  class="btn github-btn"
+                >
+                  <i class="fab fa-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills Gained -->
+        <div class="skills-gained">
+          <h4>Skills Acquired</h4>
+          <div class="skills-list">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">DOM Manipulation</span>
+            <span class="skill-tag">Local Storage</span>
+            <span class="skill-tag">CRUD Operations</span>
+            <span class="skill-tag">Event Handling</span>
+            <span class="skill-tag">Form Validation</span>
+            <span class="skill-tag">Game Logic</span>
+            <span class="skill-tag">Responsive Design</span>
+            <span class="skill-tag">Git & GitHub</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Debugging</span>
+            <span class="skill-tag">Web Performance</span>
+          </div>
+        </div>
+
+        <!-- Circle Layout for Skills -->
+        <div class="outer-circle">
+          <div class="icon icon1">
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="icon icon2">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <div class="icon icon3">
+            <i class="fab fa-js"></i>
+          </div>
+          <div class="icon icon4">
+            <i class="fab fa-git-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section fade-in">
+      <h3>Contact Me</h3>
+
+      <div class="contact-container">
+        <div class="card contact-card">
+          <!-- Contact Information -->
+          <div class="contact-info">
+            <h4>Get In Touch</h4>
+            <div class="contact-items">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div class="contact-details">
+                  <strong>Email</strong>
+                  <a href="mailto:nandiniguptait1@gmail.com"
+                    >nandiniguptait1@gmail.com</a
+                  >
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div class="contact-details">
+                  <strong>Mobile</strong>
+                  <a href="tel:+916307089359">+91 6307089359</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-container">
+            <h4>Send me a message</h4>
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  placeholder="Your Message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div id="formMessage"></div>
+
+            <div class="contact-stats">
+              <p>Messages received: <span id="messageCount">0</span></p>
+              <button id="viewMessagesBtn" class="btn-secondary">
+                View Messages
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn">↑</button>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.emailjs.com/sdk/2.4.7/email.min.js"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
